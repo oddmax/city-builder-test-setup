@@ -1,4 +1,4 @@
-# Test assessment for Unity candidates
+# Test assessment for Unity Engineering candidates
 
 *Test project for applicants:*
 Requires Unity 2018.3.0f2 or higher (in older ones some models can be broken)
@@ -10,6 +10,7 @@ Implement a simple city builder where you can place and move buildings and produ
 * Please, concentrate on **data structures**, **separation of concerns** and **architecture** of the game. UX, usability and prettiness are not important at all.
 * If you didn't implement all features - it's totally fine, feature's list is pretty big. Main goal for us is to see an architecture behind.
 * In the end, please, provide a description explaning why you did this task the way you did (why did you choose certain architecture, UI management, data structures, etc) and especially what would you do differently if you would have more time. 
+* Feel free to use 3rd party frameworks if needed
 
 **Desired set of features:**
 
