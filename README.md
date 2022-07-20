@@ -15,14 +15,13 @@ Implement a simple city builder where you can place and move buildings and produ
 **Desired set of features:**
 
 The game should have two main modes:
-* **Regular mode:** in which player can select a building by clicking on it and see a building name on top of it and current production progress (or can start a new production if no production is running)
-* **Build mode:** the player can place a new building or move an existing building 
-when player presses 'build mode' he should see a simple list with building's names and their prices where he can choose a new building to place.
-Or the player can either select and move an existing building on the grid.
+* **Regular mode:** in which player can select a building by clicking on it and see a it's name on top of it and current production progress (or can start a new production if no production is running)
+* **Build mode:** the player can place a new building. When player presses 'build mode' he should see a simple list with building's names and their prices where he can choose a new building to place. He cannot place building on places occupied by other buildings
 
 * Buildings should not be placeable on cells occupied by other buildings
-* Placing a building cost resources
+* Placing a building costs resources
 * When building is placed it should go through construction phase first (simple progressbar on top of the building) for 10 seconds before it can produce anything.
+* Player is be able to select a building in the *regular mode* by clicking on it and see a simple progressbar of current production progress. 
 
 **Building types**
 
@@ -34,9 +33,11 @@ Placing a building cost 150 gold
 * 'Steel production building' - same as wood production but produces steel instead. Produces 50 steel in 10 seconds.
 Placing a building cost 150 gold and 100 wood
 
-* Player should also be able to select a building in the regular mode by clicking on it and see a simple progressbar of current production progress. 
 
-*OPTIONAL*: 2 Types of decoration buildings:
+*BONUS FEATURES*: 
+* buildings can be moved in the *build mode*
+
+2 additional Types of decoration buildings:
 * 'Bench' - a simple bench decoration which player can place.
 Placing cost 150 gold and 50 steel
 * 'Tree' - a simple decoration which player can place.  
